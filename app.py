@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, send_from_directory
 import pickle
 import pandas as pd
 import os
@@ -14,8 +14,8 @@ with open(os.path.join('model', 'reduced_features.pkl'), 'rb') as f:
 
 @app.route('/')
 def index():
-    # Use render_template to serve HTML files
-    return render_template('index.html')
+    # Serve the index.html file from the static directory
+    return send_from_directory(app.static_folder, 'index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
