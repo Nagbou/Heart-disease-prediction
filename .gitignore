@@ -1,0 +1,32 @@
+ECHO is on.
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Flask specific
+instance/
+.env
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Data files
+*.csv
+*.pkl
+
+# OS-specific files
+.DS_Store
+Thumbs.db
