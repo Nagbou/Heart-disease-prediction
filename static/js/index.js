@@ -1,4 +1,3 @@
-alert("hello")
 document.getElementById('predictForm').addEventListener('submit', async function (event) {
     event.preventDefault();
 
