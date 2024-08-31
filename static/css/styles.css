@@ -20,7 +20,7 @@ form {
     margin-left: 5%;
 }
 
-label{
+label {
     display: inline-block;
     margin-bottom: 3%;
     margin-top: 15%;
@@ -29,16 +29,16 @@ label{
     color: rgb(10, 0, 146);
 }
 
-input[type="number"]{
-    background-color:transparent;
-    color:  rgb(2, 31, 1);
+input[type="number"] {
+    background-color: transparent;
+    color: rgb(2, 31, 1);
     outline: none;
     border: 1px solid rgb(18, 77, 16);
     padding: 0.5% 2%;
     width: 80%;
 }
 
-button{
+button {
     background-color: green;
     color: white;
     padding: 1% 10%;
@@ -49,7 +49,7 @@ button{
     outline: none;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(2, 73, 2);
 }
 
@@ -61,4 +61,13 @@ button:hover{
 .swal2-title.custom-title {
     color: #d9534f;
     font-weight: bold;
+}
+
+.back-btn {
+    background-color: #ccc;
+    padding: 1% 5%;
+}
+
+.back-btn:hover {
+    background-color: gray;
 }

@@ -1,0 +1,103 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 189);
+    margin: 2% auto 3% auto;
+}
+
+h2 {
+    color: rgb(26, 128, 43);
+}
+
+
+h5 {
+    color: rgb(70, 27, 112);
+    font-size: 1.3rem;
+}
+
+h6 {
+    color: rgb(3, 3, 160);
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.img-c {
+    border: 1px solid #0056b3;
+    width: 100%;
+    margin: 2%;
+    cursor: zoom-in;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 1000;
+    /* Ensure it's above other elements */
+}
+
+
+.floating-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+.image-popup {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 1001;
+    /* Ensure it's above other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Black background with opacity */
+}
+
+.image-popup img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    margin-top: 5%;
+    /* To center vertically */
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
